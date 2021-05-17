@@ -1,12 +1,8 @@
-<img src="https://img.shields.io/npm/v/quasar-ui-sample-ext.svg?label=quasar-ui-sample-ext">
-<img src="https://img.shields.io/npm/v/quasar-app-extension-sample-ext.svg?label=quasar-app-extension-sample-ext">
+## Quasar App Extension MyStarterKit
 
-# Structure
-* [/ui](ui) - standalone npm package
-* [/app-extension](app-extension) - Quasar app extension
+This is essentially an example of a "starter kit" that adds stuff (/quasar.conf.js configuration, folders, files, CLI hooks) on top of the official starter kit. This allows you to have multiple projects sharing a common structure/logic (and only one package to manage them rather than having to change all projects individually to match your common pattern), and also allows you to share all this with the community.
 
-# Donate
-If you appreciate the work that went into this project, please consider [donating to Quasar](https://donate.quasar.dev).
+Take it as it really is. Just an example. It doesn't shows all things that you can do. We've only cherry-picked the most used ones.
 
-# License
-MIT (c) Freedom
+Take into the account that for this example, the `ext-id` of this App Extension is `my-starter-kit` (this can be anything, and please do change it for a more appropriate name for your App Extension).
+
