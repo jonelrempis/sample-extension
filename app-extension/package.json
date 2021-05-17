@@ -1,0 +1,22 @@
+{
+  "name": "quasar-app-extension-sample-ext",
+  "version": "0.0.1",
+  "description": "A Quasar App Extension",
+  "author": "Freedom",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonelrempis/sample-extension"
+  },
+  "bugs": "https://github.com/jonelrempis/sample-extension/issues",
+  "homepage": "",
+  "dependencies": {
+    "quasar-ui-sample-ext": "latest"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  }
+}
