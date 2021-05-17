@@ -13,8 +13,8 @@
  */
 
 function extendQuasarConf (conf) {
-  conf.extras.push('ionicons-v4')
-  conf.framework.iconSet = 'ionicons-v4'
+  conf.extras.push('fontawesome-v5')
+  conf.framework.iconSet = 'fontawesome-v5'
 
   //
   // We register a boot file. User does not need to tamper with it,
@@ -29,6 +29,8 @@ function extendQuasarConf (conf) {
 
   // make sure my-component css goes through webpack to avoid ssr issues
   conf.css.push('~quasar-app-extension-sample-extension/src/components/Component.sass')
+  conf.css.push('~quasar-app-extension-sample-extension/src/components/PaymentComponent.sass')
+  conf.css.push('~quasar-app-extension-sample-extension/src/components/modals/PaymentChooseMethodModal.styl')
 }
 
 function onPublish (api, { arg, distDir }) {
